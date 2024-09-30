@@ -79,4 +79,9 @@ public class Timespan {
         result = prime * result + end.hashCode();
         return result;
     }
+
+	public boolean contains(Instant timestamp) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
